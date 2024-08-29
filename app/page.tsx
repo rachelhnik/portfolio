@@ -10,7 +10,7 @@ export default function Home() {
           width={300}
           height={100}
           className="rounded-lg"
-          priority
+          unoptimized
         />
         <div className="mt-4 md:mt-0 flex flex-col space-y-2 md:space-y-4 text-center md:text-left">
           <h6 className="text-black font-bold text-[20px] md:text-[24px]">
