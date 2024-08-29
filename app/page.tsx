@@ -1,11 +1,11 @@
 import Image from "next/image";
-
+import profile from "../public/profile.jpg";
 export default function Home() {
   return (
     <main className="bg-orange-50 flex flex-col items-center h-screen py-12 md:py-24 px-4 md:px-8">
       <div className="flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0 items-center justify-center lg:static lg:size-auto bg-none">
         <Image
-          src="https://rachelhnik.github.io/portfolio/public/profile.jpg"
+          src={profile}
           alt="Profile Picture"
           width={300}
           height={100}
